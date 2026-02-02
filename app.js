@@ -15,7 +15,7 @@ const express = require("express");
 // Think of `app` as your server control panel (routes, middleware, config).
 const app = express();
 
-// Define the “speed limit” (port):
+// Define the port:
 // - Use the environment variable if the host provides one (common in deployment)
 // - Otherwise default to 3000 locally
 const PORT = process.env.PORT || 3000;
