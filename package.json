@@ -1,0 +1,22 @@
+{
+  "name": "node2know-basicexpressserver",
+  "private": true,
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "node --watch app.js",
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfessorSolo/Node2Know-BasicExpressServer.git"
+  },
+  "keywords": [],
+  "author": "Joshua Solomon",
+  "license": "Node2Know-LEARN-1.0",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
